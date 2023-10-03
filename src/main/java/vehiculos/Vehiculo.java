@@ -79,11 +79,11 @@ public class Vehiculo {
 		cantidadVehiculos = n;
 	}
 	
-	public static String vehiculosPorTipo() {
-        return "Automoviles: " + Automovil.cantidadAutomoviles + "\n" +
+	public String vehiculosPorTipo() {
+		return "Automoviles: " + Automovil.cantidadAutomoviles + "\n" +
                "Camionetas: " + Camioneta.cantidadCamionetas + "\n" +
                "Camiones: " + Camion.cantidadCamiones;
-    }
+	}
 
 }
 
