@@ -48,6 +48,7 @@ public class Fabricante {
 		int mayorVentas = 0;
 		for (Fabricante fabricante: fabricantes) {
 			if(fabricante.getVentas()>mayorVentas) {
+				mayorVentas = fabricante.getVentas();
 				f = fabricante;
 				
 			}
